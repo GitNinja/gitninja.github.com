@@ -2,6 +2,12 @@ body{
  font-size: 12px;
  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+a {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: underline;
+}
 #centrefold {
  width: 350px;
  height: 350px;
