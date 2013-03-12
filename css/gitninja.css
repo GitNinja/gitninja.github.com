@@ -1,4 +1,4 @@
-body{
+body {
  font-size: 12px;
  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
@@ -17,6 +17,9 @@ a:hover {
  margin: -175px auto auto -175px;
  text-align: center;
 }
-.gitninjamath{
+#logo {
+ margin-bottom: 30px;
+}
+.gitninjamath {
  font-size: 50px;
 }
