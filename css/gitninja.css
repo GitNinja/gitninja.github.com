@@ -1,25 +1,27 @@
 body {
- font-size: 12px;
- font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ background-color:#fafafa;
 }
-a {
- text-decoration: none;
-}
-a:hover {
- text-decoration: underline;
-}
+
 #centrefold {
- width: 350px;
- height: 350px;
+ width: 300px;
+ height: 400px;
  position: absolute; 
  top: 50%; 
  left: 50%; 
- margin: -175px auto auto -175px;
+ margin: -250px auto auto -150px;
  text-align: center;
 }
-#logo {
- margin-bottom: 30px;
+
+div.hero
+{
+  background-size: 100%;
+  background-image: url('../images/gitninja-hero.svg');
+  width:300px;
+  height:400px;
+  margin-bottom:30px;
 }
-.gitninjamath {
- font-size: 50px;
+
+.no-svg div.hero
+{
+  background-image: url('../images/gitninja-hero.png');
 }
