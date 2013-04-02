@@ -23,40 +23,35 @@ div.hero
   background-image: url('../images/gitninja-hero.png');
 }
 #statement {
- width: 580px;
+ width: 480px;
  position: absolute;
  left: 50%; 
- margin: 500px auto auto -290px;
+ margin: 500px auto auto -380px;
  text-align: left;
 }
 #roadmap {
- width: 300px;
+ width: 260px;
  position: absolute;
  left: 50%; 
- margin: 750px auto auto -150px;
+ margin: 500px auto auto 120px;
  text-align: left;
 }
 h2 {
- text-align: center;
+ text-align: left;
  font-size: 18px;
  margin: 0;
 }
 h3 {
- text-align: center;
+ text-align: left;
  font-size: 16px;
  margin: 0;
 }
-h4 {
- text-align: left;
- font-size: 14px;
- margin: 0;
-}
 li.complete{
- list-style-image: url('../images/complete.png')
+ list-style-image: url('../images/complete.png');
 }
 li.in-progress{
- list-style-image: url('../images/in-progress.png')
+ list-style-image: url('../images/in-progress.png');
 }
 li.planned{
- list-style-image: url('../images/planned.png')
+ list-style-image: url('../images/planned.png');
 }
