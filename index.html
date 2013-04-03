@@ -2,63 +2,74 @@
 <html>
  <head>
   <title>GitNinja: Enterprise Git hosting for Windows</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
   <link href="css/gitninja.css" rel="stylesheet" />
   <script type="text/javascript" src="js/analytics.js"></script>
   <script type="text/javascript" src="js/modernizr.svg.js"></script>
  </head>
  <body>
  <header class="jumbotron">
-    <div id="centrefold">
       <div class="hero" id="hero"></div>
-      <div class="btn-group">
-        <a class="btn btn-warning" href="mailto:info@gitninja.com">info@gitninja.com</a>
-        <a class="btn btn-info" href="http://twitter.com/GitNinja">Follow @GitNinja</a>
+      <div class="btn-group social-buttons">
+        <a class="btn btn-large btn-warning" href="mailto:info@gitninja.com">info@gitninja.com</a>
+        <a class="btn btn-large btn-info" href="http://twitter.com/GitNinja">Follow @GitNinja</a>
       </div>
-    </div>
   </header>
   <div class="container">
+    <div class="row row-details">
+      <div class="span3">
+        <h3 style="font-weight:bold">Repo Management</h3>
+        <p>GitNinja is a suite of applications that provide management utilities and interfaces for configuring and sharing Git repositories and securing access to those repositories.</p>
+      </div>
+      <div class="span3">
+        <h3>Enterprise Ready</h3>
+        <p>GitNinja is built with Enterprise features in mind: Expect LDAP integration, workflows, code reviews and utilities to configure and share Git repositories.</p>
+      </div>
+      <div class="span3">
+        <h3>Runs on Windows</h3>
+        <p>GitNinja is designed to run on Microsoft Windows, on your enterprise hardware, inside the enterprise firewall. It installs through standard Windows installation mechanisms - no configuration files, promised!</p>
+      </div>
+      <div class="span3">
+        <h3>Open Source</h3>
+        <p>Based on .NET, GitNinja will be released and licensed as Open Source software when core development milestones have been reached.</p>
+      </div>
+     </div>
+     <hr/>
       <div class="row row-details">
-        <div class="span1"></div>
-        <div class="span7">
-          <h2>Mission Statement</h2>
-          <ul>
-            <li>GitNinja exists to make it easy to collaborate using Git on the Microsoft Windows platform.</li>
-            <li>GitNinja is a suite of applications that provide management utilities and web interfaces for configuring and sharing Git repositories and securing access to those repositories.</li>
-            <li>GitNinja provides <i>out of the box</i>, continuous integration workflows which ease enterprise migration to DVCS from CVCS for software development teams.</li>
-            <li>GitNinja is designed to run on your enterprise hardware, inside the enterprise firewall.</li>
-            <li>GitNinja runs on the Microsoft .Net framework and installs using standard Windows installation mechanisms.</li>
-            <li>GitNinja will be released and licensed as Open Source software when core development milestones have been implemented.</li>
+        <div class="span3">
+        <h3 style="font-weight:bold">Roadmap</h3>
+        <p>We're working to get a basic feature set complete. Check back here to get an idea of where we are.</p>
+        </div>
+        <div class="span3">
+          <h3>0.8 Chimorin</h3>
+          <ul class="unstyled">
+            <li><i class="icon icon-ok"></i> Basic repository management</li>
+            <li><i class="icon icon-ok"></i> HTTP stack (inc. Clone, Pull, Push)</li>
+            <li><i class="icon icon-ok"></i> Repository browser</li>
+            <li><i class="icon icon-cog"></i> Pull Requests</li>
+            <li><i class="icon icon-cog"></i> LDAP authentication</li>
           </ul>
         </div>
         <div class="span3">
-          <h2>Roadmap</h2>
+          <h3>0.9 Chimozufu</h3>
           <ul class="unstyled">
-            <li>
-              <h3>0.8 Chimorin</h3>
-              <ul>
-                <li class="complete">HTTP stack (inc. Clone, Pull, Push)</li>
-                <li class="in-progress">Browse revisions in web interface</li>
-                <li class="in-progress">OAuth and LDAP authentication</li>
-              </ul>
-            </li>
-            <li>
-              <h3>0.9 Chimozufu</h3>
-              <ul>
-                <li class="in-progress">Pull Requests</li>
-              </ul>
-            </li>
-            <li>
-              <h3>1.0 Shimizu</h3>
-              <ul>
-                <li class="planned">SSH stack (inc. Clone, Pull, Push)</li>
-                <li class="planned">MSI installers</li>
-              </ul>
-            </li>
+            <li><i class="icon icon-calendar"></i> SSH stack (inc. Clone, Pull, Push)</li>
+            <li><i class="icon icon-calendar"></i> Authorization</li>
           </ul>
         </div>
-        <div class="span1"></div>
+        <div class="span3">
+          <h3>1.0 Shimizu</h3>
+          <ul class="unstyled">
+            <li><i class="icon icon-calendar"></i> MSI installers</li>
+            <li><i class="icon icon-calendar"></i> Code reviews</li>
+            <li><i class="icon icon-calendar"></i> WebHooks</li>
+          </ul>
+        </div>
     </div>
+    <hr/>
+    <p class="muted">&copy; 2013 - GitNinja</p>
   </div>
  </body>
 </html>
